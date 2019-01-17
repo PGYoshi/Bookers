@@ -1,0 +1,88 @@
+
+    <p id="notice"></p>
+
+<h1>Books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td>データベース実践入門</td>
+        <td>効率的なSQL文を教えてくれます。。</td>
+        <td><a class="show_112230" href="/books/112230">Show</a></td>
+        <td><a class="edit_112230" href="/books/112230/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112230" rel="nofollow" data-method="delete" href="/books/112230">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>リーダブルコード</td>
+        <td>より良いコードを書くためのシンプルで実践的なテクニック</td>
+        <td><a class="show_112224" href="/books/112224">Show</a></td>
+        <td><a class="edit_112224" href="/books/112224/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112224" rel="nofollow" data-method="delete" href="/books/112224">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>トラブル知らずのシステム設計</td>
+        <td>システム設計の要点を図解で説明してくれます</td>
+        <td><a class="show_112225" href="/books/112225">Show</a></td>
+        <td><a class="edit_112225" href="/books/112225/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112225" rel="nofollow" data-method="delete" href="/books/112225">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>たのしいRuby</td>
+        <td>Rubyの入門におすすめです</td>
+        <td><a class="show_112226" href="/books/112226">Show</a></td>
+        <td><a class="edit_112226" href="/books/112226/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112226" rel="nofollow" data-method="delete" href="/books/112226">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>入門Git</td>
+        <td>gitについての基本操作から内部構造まで解説してくれます</td>
+        <td><a class="show_112227" href="/books/112227">Show</a></td>
+        <td><a class="edit_112227" href="/books/112227/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112227" rel="nofollow" data-method="delete" href="/books/112227">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>アルゴリズム図鑑</td>
+        <td>アルゴリズムについてカラーイラストでしっかり解説してくれます</td>
+        <td><a class="show_112228" href="/books/112228">Show</a></td>
+        <td><a class="edit_112228" href="/books/112228/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112228" rel="nofollow" data-method="delete" href="/books/112228">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>達人プログラマー</td>
+        <td>プログラマ入門者は必読！</td>
+        <td><a class="show_112229" href="/books/112229">Show</a></td>
+        <td><a class="edit_112229" href="/books/112229/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_112229" rel="nofollow" data-method="delete" href="/books/112229">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+
+
+<h2>New book</h2>
+<form class="new_book" id="new_book" action="/books" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vh6jd8MslFO6xxvsZkS8IhqYsZhkQepBtb0TK2ygyqyPe8BnmcAEqjtNz+jrUQUECUJM3o9dkM46bUYWPkPp4A==" />
+
+  <div class="field">
+    <label for="book_title">Title</label>
+    <input class="book_title" type="text" name="book[title]" id="book_title" />
+  </div>
+
+  <div class="field">
+    <label for="book_body">Body</label>
+    <textarea class="book_body" name="book[body]" id="book_body">
+</textarea>
+  </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Book" data-disable-with="Create Book" />
+  </div>
+</form>
+
+
